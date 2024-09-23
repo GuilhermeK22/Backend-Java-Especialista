@@ -1,0 +1,51 @@
+
+Pilha
+Complexidade de Tempo
+•  push(): O(1) - Adicionar um elemento no topo da pilha é uma operação constante.
+
+•  pop(): O(1) - Remover um elemento do topo da pilha é uma operação constante.
+
+•  top(): O(1) - Acessar o elemento do topo da pilha é uma operação constante.
+
+•  isEmpty(): O(1) - Verificar se a pilha está vazia é uma operação constante.
+
+•  size(): O(1) - Retornar o tamanho da pilha é uma operação constante.
+
+Complexidade de Espaço
+•  O(n) - A pilha armazena todos os elementos em um ArrayList, então o espaço utilizado cresce linearmente com o número de elementos.
+
+Fila
+Complexidade de Tempo
+•  enqueue(): O(1) - Adicionar um elemento no final da fila é uma operação constante.
+
+•  dequeue(): O(1) - Remover um elemento do início da fila é uma operação constante.
+
+•  rear(): O(1) - Acessar o elemento do final da fila é uma operação constante.
+
+•  front(): O(1) - Acessar o elemento do início da fila é uma operação constante.
+
+•  isEmpty(): O(1) - Verificar se a fila está vazia é uma operação constante.
+
+•  size(): O(1) - Retornar o tamanho da fila é uma operação constante.
+
+Complexidade de Espaço
+•  O(n) - A fila armazena todos os elementos em uma LinkedList, então o espaço utilizado cresce linearmente com o número de elementos.
+
+Lista Encadeada
+Complexidade de Tempo
+•  push(): O(1) - Adicionar um nó no início da lista é uma operação constante.
+
+•  pop(): O(1) - Remover um nó do início da lista é uma operação constante.
+
+•  insert(int index, int valor): O(n) - Inserir um nó em uma posição específica pode exigir a travessia de até n elementos.
+
+•  remove(int index): O(n) - Remover um nó de uma posição específica pode exigir a travessia de até n elementos.
+
+•  elementAt(int index): O(n) - Acessar um nó em uma posição específica pode exigir a travessia de até n elementos.
+
+•  size(): O(1) - Retornar o tamanho da lista é uma operação constante.
+
+•  printList(): O(n) - Imprimir todos os elementos da lista requer a travessia de todos os n elementos.
+
+Complexidade de Espaço
+•  O(n) - A lista encadeada armazena todos os elementos em nós individuais, então o espaço utilizado cresce linearmente com o número de elementos.
